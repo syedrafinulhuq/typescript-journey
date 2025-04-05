@@ -1,9 +1,6 @@
----
 
-```markdown
 # 📘 TypeScript Learning Guide
 
----
 
 ## ✨ Overview
 
