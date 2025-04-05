@@ -1,13 +1,25 @@
 // Strings
-const myString:string = "name"
-myString.toUpperCase()
-myString.toLowerCase()
 
-// locale - region specific
+const myText: string = "name"
 
-const toLowerLocaleCase = myString.toLocaleLowerCase('tr-TR')
-const toUpperLocaleCase = myString.toLocaleUpperCase('tr-TR')
 
-console.log(toLowerLocaleCase)
-console.log(toUpperLocaleCase)
-console.log(myString)
+
+const upperCase = myText.toUpperCase()
+
+const lowerCase = myText.toLowerCase()
+
+
+
+// Locale - region specific
+
+const lowerCaseTR = myText.toLocaleLowerCase('tr-TR')
+
+const upperCaseTR = myText.toLocaleUpperCase('tr-TR')
+
+
+
+console.log(lowerCaseTR)
+
+console.log(upperCaseTR)
+
+console.log(myText)

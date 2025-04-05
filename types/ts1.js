@@ -1,10 +1,10 @@
 // Strings
-var myString = "name";
-myString.toUpperCase();
-myString.toLowerCase();
-// locale - region specific
-var toLowerLocaleCase = myString.toLocaleLowerCase('tr-TR');
-var toUpperLocaleCase = myString.toLocaleUpperCase('tr-TR');
-console.log(toLowerLocaleCase);
-console.log(toUpperLocaleCase);
-console.log(myString);
+var myText = "name";
+var upperCase = myText.toUpperCase();
+var lowerCase = myText.toLowerCase();
+// Locale - region specific
+var lowerCaseTR = myText.toLocaleLowerCase('tr-TR');
+var upperCaseTR = myText.toLocaleUpperCase('tr-TR');
+console.log(lowerCaseTR);
+console.log(upperCaseTR);
+console.log(myText);
