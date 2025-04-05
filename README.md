@@ -1,6 +1,3 @@
-Sure! Here's a **README.md** file written in a beginner-friendly, practical, and clear format to help you and others learn TypeScript in a better, more structured way.  
-Each line is spaced out and the text is in a larger format (you can use markdown headers to reflect larger fonts on GitHub).  
-
 ---
 
 ```markdown
